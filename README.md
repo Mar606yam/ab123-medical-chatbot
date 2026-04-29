@@ -1,4 +1,4 @@
-# MY DOC - Medical Chat-Doc Assistant 🧑‍⚕️👩‍⚕️🩺
+# MY DOC - Medical Chat-Doc Assistant 👩‍⚕️🩺
 
 ## Project Overview
 This project is an end-to-end cloud-based medical chat assistant developed for **CISC 886 - Cloud Computing**. It leverages **AWS EMR** for big data preprocessing, **Google Colab (Unsloth)** for fine-tuning the **Llama-3-8B** model, and **AWS EC2** for deployment. 
