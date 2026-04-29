@@ -3,9 +3,11 @@
 ## Project Overview
 This project is an end-to-end cloud-based medical chat assistant developed for **CISC 886 - Cloud Computing**. It leverages **AWS EMR** for big data preprocessing, **Google Colab (Unsloth)** for fine-tuning the **Llama-3-8B** model, and **AWS EC2** for deployment. 
 
-## **Author:** YOMNA ALGENDY , YASMEEN ALGENDY , MARYAM ABDALBARY. 
+## **Authors
+** YOMNA ALGENDY , YASMEEN ALGENDY , MARYAM ABDALBARY. 
 
-## **NetID:** 25hcgx , 25bqdp , 25vrqw
+## **NetID
+** 25hcgx , 25bqdp , 25vrqw
 
 
 ---
