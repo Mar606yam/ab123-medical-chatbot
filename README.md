@@ -1,4 +1,4 @@
-# MY DOC - Medical Chat-Doc Assistant 🩺
+# MY DOC - Medical Chat-Doc Assistant 🧑‍⚕️👩‍⚕️🩺
 
 ## Project Overview
 This project is an end-to-end cloud-based medical chat assistant developed for **CISC 886 - Cloud Computing**. It leverages **AWS EMR** for big data preprocessing, **Google Colab (Unsloth)** for fine-tuning the **Llama-3-8B** model, and **AWS EC2** for deployment. 
@@ -12,7 +12,7 @@ YOMNA ALGENDY , YASMEEN ALGENDY , MARYAM ABDALBARY.
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 Before replicating this project, ensure you have:
 - **AWS Account:** Access to S3, EMR, and EC2 (g4dn.xlarge recommended). 
 - **Google Colab:** For fine-tuning with GPU (T4 or higher). 
@@ -21,7 +21,7 @@ Before replicating this project, ensure you have:
 
 ---
 
-## 🚀 Project Architecture
+##  Project Architecture
 - **Infrastructure:** Custom VPC, Public Subnets, and Security Groups (provisioned via AWS Console). 
 - **Data Processing:** Apache Spark on AWS EMR (Configured for 20M+ records scale). 
 - **Model:** Llama-3-8B-Instruct (Fine-tuned using QLoRA/PEFT). 
@@ -29,7 +29,7 @@ Before replicating this project, ensure you have:
 
 ---
 
-## 💰 Cost Summary Table 
+##  Cost Summary Table 
 | Service | Estimated Cost | Usage Description |
 |---------|----------------|-------------------|
 | S3      | $0.05          | Data & Script storage |
@@ -39,5 +39,5 @@ Before replicating this project, ensure you have:
 
 ---
 
-## 🛠️ Replication Steps
+##  Replication Steps
 *(Steps will be added here following each phase of the project: VPC Setup -> EMR Preprocessing -> Fine-Tuning -> Deployment)*
