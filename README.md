@@ -6,7 +6,7 @@ This project is an end-to-end cloud-based medical chat assistant developed for *
 ## **Authors** 
 YOMNA ALGENDY , YASMEEN ALGENDY , MARYAM ABDALBARY. 
 
-## **NetID** 
+## **NetIDs** 
 25hcgx , 25bqdp , 25vrqw
 
 
