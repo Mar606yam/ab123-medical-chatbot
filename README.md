@@ -1,28 +1,29 @@
 # MY DOC - Medical Chat-Doc Assistant 🩺
 
 ## Project Overview
-This project is an end-to-end cloud-based medical chat assistant developed for **CISC 886 - Cloud Computing**. It leverages **AWS EMR** for big data preprocessing, **Google Colab (Unsloth)** for fine-tuning the **Llama-3-8B** model, and **AWS EC2** for deployment. [cite: 133, 155]
+This project is an end-to-end cloud-based medical chat assistant developed for **CISC 886 - Cloud Computing**. It leverages **AWS EMR** for big data preprocessing, **Google Colab (Unsloth)** for fine-tuning the **Llama-3-8B** model, and **AWS EC2** for deployment. 
 
-**Author:** YOMNA ALGENDY , YASMEEN ALGENDY , MARYAM ABDALBARY. 
-**NetID:** 25hcgx , 25bqdp , 25vrqw
+## **Author:** YOMNA ALGENDY , YASMEEN ALGENDY , MARYAM ABDALBARY. 
+
+## **NetID:** 25hcgx , 25bqdp , 25vrqw
 
 
 ---
 
 ## 🛠️ Prerequisites
 Before replicating this project, ensure you have:
-- **AWS Account:** Access to S3, EMR, and EC2 (g4dn.xlarge recommended). [cite: 162, 181]
-- **Google Colab:** For fine-tuning with GPU (T4 or higher). [cite: 109]
-- **Tools:** Hugging Face account (for model access), Ollama installed on EC2, and optionally Terraform for VPC provisioning. [cite: 106, 145, 181]
-- **Region:** US East (N. Virginia) `us-east-1` is used for all resources. [cite: 162, 194]
+- **AWS Account:** Access to S3, EMR, and EC2 (g4dn.xlarge recommended). 
+- **Google Colab:** For fine-tuning with GPU (T4 or higher). 
+- **Tools:** Hugging Face account (for model access), Ollama installed on EC2, and optionally Terraform for VPC provisioning. 
+- **Region:** US East (N. Virginia) `us-east-1` is used for all resources. 
 
 ---
 
 ## 🚀 Project Architecture
-- **Infrastructure:** Custom VPC, Public Subnets, and Security Groups (provisioned via AWS Console). [cite: 144, 145]
-- **Data Processing:** Apache Spark on AWS EMR (Configured for 20M+ records scale). [cite: 161]
-- **Model:** Llama-3-8B-Instruct (Fine-tuned using QLoRA/PEFT). [cite: 155, 173]
-- **Deployment:** Ollama runner on AWS EC2 (g4dn.xlarge) with Open WebUI. [cite: 180, 181]
+- **Infrastructure:** Custom VPC, Public Subnets, and Security Groups (provisioned via AWS Console). 
+- **Data Processing:** Apache Spark on AWS EMR (Configured for 20M+ records scale). 
+- **Model:** Llama-3-8B-Instruct (Fine-tuned using QLoRA/PEFT). 
+- **Deployment:** Ollama runner on AWS EC2 (g4dn.xlarge) with Open WebUI. 
 
 ---
 
